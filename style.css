@@ -9,14 +9,28 @@
 .main-screen {
     background: url("https://i.pinimg.com/1200x/46/25/44/462544d6deed3b390175260e7209f518.jpg");
     background-size: cover;
-    height: 95vh;
+    background-position: center;
+    height: 92vh;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
+.icon-box {
+    width: 70px;
+    height: 70px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-
+.icon-box img {
+    width: 48px;
+    height: 48px;
+}
 
 /* Footer Screen */
 .footer-screen {
-    background: white;
-    height: 5vh;
+    background: green;
+    height: 6vh;
 }

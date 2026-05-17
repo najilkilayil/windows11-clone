@@ -7,5 +7,14 @@
 
 /* Main screen */
 .main-screen {
+    background: url("https://i.pinimg.com/1200x/46/25/44/462544d6deed3b390175260e7209f518.jpg");
+    background-size: cover;
+    height: 95vh;
+}
 
+
+/* Footer Screen */
+.footer-screen {
+    background: white;
+    height: 5vh;
 }

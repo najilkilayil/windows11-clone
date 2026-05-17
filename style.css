@@ -54,6 +54,7 @@
 }
 
 .icon-mini-box {
+    margin-left: 10px;
     width: 45px;
     height: 45px;
     display: flex;
@@ -82,6 +83,7 @@
     margin-left: 15px;
     align-items: center;
     position: relative;
+    margin-right: 15px;
 }
 
 .searchbar img {

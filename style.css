@@ -19,12 +19,12 @@
 .icon-box {
     width: 70px;
     height: 70px;
-    background: red;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 2px;
     margin-bottom: 10px;
+    flex-direction: column;
 }
 
 .icon-box img {
@@ -33,8 +33,14 @@
     display: block;
 }
 
+.icon-box p {
+    color: white;
+    font-size: 12px;
+    text-shadow: 1px 1px 3px black;
+}
+
 .icon-box:hover {
-    background: green;
+    background: rgba(255, 255, 255, 0.307);
     border-radius: 2px;
 }
 

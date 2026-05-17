@@ -9,6 +9,7 @@
 .main-screen {
     background: url("https://i.pinimg.com/1200x/46/25/44/462544d6deed3b390175260e7209f518.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     height: 92vh;
     padding-top: 10px;
@@ -18,19 +19,27 @@
 .icon-box {
     width: 70px;
     height: 70px;
-    background: white;
+    background: red;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 2px;
+    margin-bottom: 10px;
 }
 
 .icon-box img {
     width: 48px;
     height: 48px;
+    display: block;
+}
+
+.icon-box:hover {
+    background: green;
+    border-radius: 2px;
 }
 
 /* Footer Screen */
 .footer-screen {
-    background: green;
+    background: white;
     height: 6vh;
 }

@@ -126,3 +126,37 @@
     background: rgba(203, 203, 203, 0.674);
 }
 
+/* Left Side Weather */
+.left-side {
+    background: transparent;
+    left: 15px;
+    position: absolute;
+    width: 150px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+.left-side img {
+    width: 35px;
+    height: 35px;
+}
+
+.left-sub-side {
+    background: transparent;
+    padding-left: 10px;
+}
+
+#left-sub-side-main-head {
+    color: black;
+}
+
+#left-sub-side-sub-head {
+    color: grey;
+}
+
+.left-side:hover {
+    background: rgba(203, 203, 203, 0.674);
+}

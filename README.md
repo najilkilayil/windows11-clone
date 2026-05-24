@@ -42,6 +42,15 @@ windows11-clone/
 ```
 ----
 
+## ☘️ Future Plans
+- Working start menu
+- Search anything through search bar
+- Working system buttons
+- Realtime weather data
+- Realtime clock
+- Right Click menu when right clicking use mouse and if in mobile double click
+- Drag and place for the apps
+
 ## 👨‍💻 Author
 
 Made with ❤️ by  ***Najl Kilayil***
